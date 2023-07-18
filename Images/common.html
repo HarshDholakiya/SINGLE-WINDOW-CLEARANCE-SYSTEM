@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Single Window Clearance Platform</title>
+	<link href="common.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor=#131724>
+	<section>
+		<div class="header" id="mobile-nav" style="padding-left:35px" >			
+		<img class="img" src="gov.jpg" align=left>
+		<img class="img1" src="logo.jpg" align=right>
+
+		<p><font color= #53eded face="New Bold" class="h1">Single Window Clearance Platform
+			
+				</font>
+			</p> 
+		</div>
+
+		
+		</div>
+<!-- Add the PayPal JavaScript SDK with both buttons and marks components -->
+<script src="https://www.paypal.com/sdk/js?client-id=test&components=buttons,marks"></script>
+
+<!-- Use radio buttons for choosing between PayPal and a different payment method -->
+<label>
+  <input type="radio" name="payment-option" value="paypal" checked>
+  Pay with PayPal
+  <div id="paypal-marks-container"></div>
+</label>
+<label>
+  <input type="radio" name="payment-option" value="alternate">
+  Pay with a different method
+</label>
+
+<div id="paypal-buttons-container"></div>
+<div id="alternate-button-container">
+  <button>Pay with a different method</button>
+</div>
+
+<script>
+  // Render the PayPal marks
+  paypal.Marks().render('#paypal-marks-container');
+
+  // Render the PayPal buttons
+  paypal.Buttons().render('#paypal-buttons-container');
+
+  // Listen for changes to the radio buttons
+  document.querySelectorAll('input[name=payment-option]')
+    .forEach(function (el) {
+      el.addEventListener('change', function (event) {
+
+        // If PayPal is selected, show the PayPal button
+        if (event.target.value === 'paypal') {
+          document.body.querySelector('#alternate-button-container')
+            .style.display = 'none';
+          document.body.querySelector('#paypal-buttons-container')
+            .style.display = 'block';
+        }
+
+        // If alternate funding is selected, show a different button
+        if (event.target.value === 'alternate') {
+          document.body.querySelector('#alternate-button-container')
+            .style.display = 'block';
+          document.body.querySelector('#paypal-buttons-container')
+            .style.display = 'none';
+        }
+      });
+    });
+
+  // Hide non-PayPal button by default
+  document.body.querySelector('#alternate-button-container')
+    .style.display = 'none';
+</script>
+
+
+		<div class="footer">
+			<a href="#startup"><img src="sti.png" width=320 height=120 alt="StartUpIndia"></a>
+			<a href="#digital"><img src="di.png" width=260 height=120 alt="Digital India"></a>
+			<a href="#amritmahotsav"><img src="akam.png" width=260 height=120 alt="Azadi-Ka-Amrit-Mahotsav"></a>
+			<a href="#makeinindia"><img src="mii.jpg" width=260 height=120 alt="Make in India"></a>
+			<a href="#skillinida"><img src="si.jpg" width=260 height=120 alt="Skill India"></a>
+		</div>
+
+	</section>
+
+</body>
+</html>

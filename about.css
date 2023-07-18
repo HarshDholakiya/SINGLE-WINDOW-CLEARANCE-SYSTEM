@@ -1,0 +1,212 @@
+.topnav{
+    overflow: hidden;
+    margin:  0px 0px 5px 0px;
+  }
+
+  .img{
+    margin-top: 0%;
+    margin-right: 2%;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width: 60px;
+}
+
+.img1{
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 0.5%;
+    top: 0px;
+    left: 15px;
+    height: 70px;
+    width: 70px;
+}
+
+.img10{
+    margin-left: 0%;
+    margin-right: 0.5%;
+    top: 0px;
+    left: 15px;
+    height: 220px;
+    width: 250px;
+}
+
+.header
+{
+    padding: 0px;
+    border: 2px solid #53eded;          
+    background: #fff;
+    box-shadow: 5px 5px 5px #0e213b;
+    margin:  15px 0px 0px 0px;
+    padding: 15px 5px 20px 0px;
+    background-image: linear-gradient(to right, #021329 , #0d2222 , #0d2222 , #0d2222);
+    background-color: #0e213b;
+    font-size: 12px;
+}
+
+.h1
+{
+    /*text-shadow: 1px 1px 2px black, 0 0 25px #561420, 0 0 5px darkblue;*/
+    text-shadow: 2px 2px 3px black, 0 0 15px #561420, 0 0 4px blue;
+    font-size: 2.5vw;
+    font-family: 'Times New Roman';
+    font-weight: 10;
+    text-emphasis-color: #53eded;
+    color: #53eded;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    padding: 0px 0px 0px 0%;
+    margin: 0px 0px 0px 1%;
+}
+
+.class1{
+    background-image: url("Images/backabout.jpg");
+    background-size: cover;
+    padding:35px;
+    color:cornsilk;
+    font-size:22px;
+    font-family:'Arial', Times, serif;
+    margin-top:15px;
+    height: 220px;           
+}  
+
+.class2{
+    color: darkblue;
+    font-size:15px;
+    font-family:'Arial', Times, serif;
+    text-align: justify;
+    width: 100;
+    margin-bottom: 55px;
+    margin-top: 15px;
+    background-color: cornsilk;
+    position: relative;
+    float: left;
+}
+
+.class2 h3{
+    margin-left: 15px;
+}
+
+.imgb{
+    height:205%;
+    width:40%;
+    margin: 3px 2px 0px 20px;
+}
+
+.class4:hover{
+    opacity: 0.8;
+}
+
+.class4{
+    height:700px;
+    width:100%;
+    margin-top:35px;
+}
+
+.noticetitle3{
+    text-shadow: 1px 1px 3px black, 0 0 10px black, 0 0 4px blue;
+    font-size: 1.7vw;
+    font-family: 'Times New Roman';
+    text-emphasis-color: #53eded;
+    color: #53eded;
+    border: solid 0px #561420;
+    border-radius: 15px;
+    padding: 10px 40px 18px 40px;
+    margin: 0px 5px 32px 25%;
+    height: 25px;
+    /*background-image: linear-gradient(to right, #e735c3 15%, #5689e8 , #5689e8, #e735c3);*/
+    background-color: crimson;
+}
+
+.noticetitle3:hover{
+    color: white;
+}
+
+.footer
+        {
+            position: relative;
+            padding: 22px;
+            background: #021329;
+            margin-top: 15px;
+            box-shadow: 5px 5px 5px #0e213b;
+            font-size: medium;
+            color: White;
+            border-top: 2px solid #53eded;
+        }
+
+        .footer1
+        {
+            position: relative;
+            padding: 22px;
+            background: #021329;
+            margin-top: 0px;
+            box-shadow: 5px 5px 5px #0e213b;
+            font-size: medium;
+            color: White;
+        }
+
+        .footimg
+        {
+            margin-left: 15px;
+        }
+
+
+        /* STYLES SPECIFIC TO FOOTER  */
+
+        .footer .col {
+          width: 240px;
+          height: auto;
+          float: left;
+          box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          padding: 0px 20px 20px 20px;
+          margin: 0px 30px 0px 50px;
+        }
+        .footer .col h1 {
+          margin: 5;
+          padding: 0;
+          font-family: inherit;
+          font-size: 22px;
+          line-height: 17px;
+          padding: 20px 0px 5px 0px;
+          /*color: rgba(255,255,255,0.2);*/
+          font-weight: normal;
+          text-transform: uppercase;
+          letter-spacing: 0.250em;
+          color: aqua;
+        }
+        .footer .col ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        .footer .col ul li {
+          color: #999999;
+          font-size: 20px;
+          font-family: inherit;
+          font-weight: bold;
+          padding: 5px 0px 5px 0px;
+          cursor: pointer;
+          transition: .2s;
+          -webkit-transition: .2s;
+          -moz-transition: .2s;
+        }
+        .social ul li {
+          display: inline-block;
+          padding-right: 5px !important;
+        }
+
+        .footer .col ul li:hover {
+          color: #ffffff;
+          transition: .1s;
+          -webkit-transition: .1s;
+          -moz-transition: .1s;
+        }
+        .clearfix {
+          clear: both;
+        }
+
+        a{
+            text-decoration: none;
+        }
